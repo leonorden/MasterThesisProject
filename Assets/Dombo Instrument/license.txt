@@ -1,0 +1,8 @@
+Model Information:
+* title:	“Dombo”, a musical instrument
+* source:	https://sketchfab.com/3d-models/dombo-a-musical-instrument-c493365be5b6432eb678d2af457a8c38
+* author:	Virtual Museums of Małopolska (https://sketchfab.com/WirtualneMuzeaMalopolski)
+
+Model License:
+* license type:	CC0-1.0 (http://creativecommons.org/publicdomain/zero/1.0/)
+* requirements:	Credit is not mandatory. Commercial use is allowed.
