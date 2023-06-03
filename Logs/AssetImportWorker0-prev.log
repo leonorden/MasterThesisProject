@@ -1,0 +1,542 @@
+Unity Editor version:    2021.3.25f1 (68ef2c4f8861)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.3.1 (a) (Build 22E772610a)
+Darwin version:          22.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/leonorden/Desktop/MasterThesisProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56471
+Successfully changed project path to: /Users/leonorden/Desktop/MasterThesisProject
+/Users/leonorden/Desktop/MasterThesisProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704697119552] Host "[IP] 192.168.68.104 [Port] 0 [Flags] 2 [Guid] 123301887 [EditorId] 123301887 [Version] 1048832 [Id] OSXEditor(0,LeoMac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704697119552] Host "[IP] 192.168.68.104 [Port] 0 [Flags] 2 [Guid] 123301887 [EditorId] 123301887 [Version] 1048832 [Id] OSXEditor(0,LeoMac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 130.39 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 8.29 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/leonorden/Desktop/MasterThesisProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 555X (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 555X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005233 seconds.
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 145 ms
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 90.00 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (510ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (279ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019368 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/leonorden/Desktop/MasterThesisProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/leonorden/Desktop/MasterThesisProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 86.75 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.497 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1497ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1245ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (559ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
+Unloading 4482 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (41.4 KB). Loaded Objects now: 4976.
+Memory consumption went from 178.7 MB to 178.7 MB.
+Total: 5.257121 ms (FindLiveObjects: 0.676527 ms CreateObjectMapping: 0.459507 ms MarkObjects: 4.008037 ms  DeleteObjects: 0.112278 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 615420.161749 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground1
+  artifactKey: Guid(65ed503bf49a7e64a80452a542b64e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground1 using Guid(65ed503bf49a7e64a80452a542b64e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59629c0706021362eb9e97b7944dc97f') in 0.009048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/ADG_Textures/ground_vol1
+  artifactKey: Guid(feb862146f8ee684c998cb438859dafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1 using Guid(feb862146f8ee684c998cb438859dafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db31628d447e251e4e0cd1b49dd7992') in 0.001223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.599623 seconds.
+  path: Assets/ADG_Textures/Demo/DemoScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/Demo/DemoScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1506eea4fdfa7734c5272a8675a3b17d') in 0.001912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.436732 seconds.
+  path: Assets/Scenes/Main VR Scene 2.unity
+  artifactKey: Guid(b65617dcf7b6d4a51a9bb3ce28e435a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main VR Scene 2.unity using Guid(b65617dcf7b6d4a51a9bb3ce28e435a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a7e5aea9e28a42f94f699d7b8581f7') in 0.001244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.532377 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground4
+  artifactKey: Guid(9a31f8da348e3b346aff560d42e68aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground4 using Guid(9a31f8da348e3b346aff560d42e68aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047564f417971c74884e9630b9cdf6d7') in 0.001657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.345453 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground5/ground5_Ambient_Occlusion.tga
+  artifactKey: Guid(03e262b3b2775504b8e1534cce498347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground5/ground5_Ambient_Occlusion.tga using Guid(03e262b3b2775504b8e1534cce498347) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '629ba5c3ccb30f6bd481a0d518e861f7') in 0.798648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.359111 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground7/ground7_Ambient_Occlusion.tga
+  artifactKey: Guid(39069846104692045a9ba8eda0dbad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground7/ground7_Ambient_Occlusion.tga using Guid(39069846104692045a9ba8eda0dbad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '0160e2a459445588b4f82fb5952ba4c5') in 0.075217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.994039 seconds.
+  path: Assets/ADG_Textures/ground_vol1/ground4/ground4_Diffuse.tga
+  artifactKey: Guid(9875bf7345d4ac04ab35f3b9ed63a954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADG_Textures/ground_vol1/ground4/ground4_Diffuse.tga using Guid(9875bf7345d4ac04ab35f3b9ed63a954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '5d4b57280169ec2b60e00eb256c07de4') in 0.039712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.397879 seconds.
+  path: Assets/Planet Earth Free/Demo.unity
+  artifactKey: Guid(df593a320500c864b944dbe6d9028b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planet Earth Free/Demo.unity using Guid(df593a320500c864b944dbe6d9028b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5697498dd8be20a42a95d3155cfb3916') in 0.001672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.390608 seconds.
+  path: Assets/Planet Earth Free/Materials
+  artifactKey: Guid(4ad8f1a436c29c4458b47498f0287878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planet Earth Free/Materials using Guid(4ad8f1a436c29c4458b47498f0287878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee69ff139ddf65867c2ba793b2ce3a3') in 0.001220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.757179 seconds.
+  path: Assets/Planet Earth Free/Models
+  artifactKey: Guid(a8f3185b6106ddd41908c6af152005d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Planet Earth Free/Models using Guid(a8f3185b6106ddd41908c6af152005d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74114b9fb4a215a0cb323ba8bdd6738') in 0.002113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.217698 seconds.
+  path: Assets/Scenes/Main VR Scene/LightingData.asset
+  artifactKey: Guid(c5f8026fc1ab4da40b12ae89acb6842b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main VR Scene/LightingData.asset using Guid(c5f8026fc1ab4da40b12ae89acb6842b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f36d5419707c25d49aff8b4f4e6e52') in 0.758544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.052738 seconds.
+  path: Assets/Desert/Prefabs
+  artifactKey: Guid(2295d06e1a028154da7c4527baecc9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert/Prefabs using Guid(2295d06e1a028154da7c4527baecc9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f566991afbf68048d845d302965a62ec') in 0.001167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.505615 seconds.
+  path: Assets/Ground Textures/ground_vol1/ground6
+  artifactKey: Guid(3a34bbf059f23be4cbd12e4f40ca0ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground Textures/ground_vol1/ground6 using Guid(3a34bbf059f23be4cbd12e4f40ca0ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0b6c8c24a8ce317e98f0d296f2dd71') in 0.001951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 356.911535 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes
+  artifactKey: Guid(47e4a197754b0f248b417493f34a995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes using Guid(47e4a197754b0f248b417493f34a995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe094395080a90de39c16c772fbf5dd') in 0.001878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.582576 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials
+  artifactKey: Guid(fd61daf68255ce543ae586c86b44e6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials using Guid(fd61daf68255ce543ae586c86b44e6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd90982b88621408102d27ac77b2be1c') in 0.001231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.833681 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene
+  artifactKey: Guid(bd36a8a9eb113fa499a7a0b42ff93bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene using Guid(bd36a8a9eb113fa499a7a0b42ff93bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4897ee12755c62ed6c24b8c89beb3fb3') in 0.001762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.106857 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village.unity
+  artifactKey: Guid(b355ddf47ac85d74cbc7ddd0d7fba648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village.unity using Guid(b355ddf47ac85d74cbc7ddd0d7fba648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5d2ad82972b9804365cc1f4e731483') in 0.001174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.572971 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village
+  artifactKey: Guid(8a7d0a9c6d2507e479e1e5d33df54ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Scene/Desert_Village using Guid(8a7d0a9c6d2507e479e1e5d33df54ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10648585df7281589b0469311837dae') in 0.001534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.296311 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Bench (1).prefab
+  artifactKey: Guid(ae3c14b96abd09d42a0616d9bf768053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Bench (1).prefab using Guid(ae3c14b96abd09d42a0616d9bf768053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de20fa4ccb1cd18ca233743979c645d') in 0.217353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.465518 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Desert.prefab
+  artifactKey: Guid(01fe0c353c6dfb947b34071429662c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Desert.prefab using Guid(01fe0c353c6dfb947b34071429662c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce37121b1e3ec4a47baa5fc89839d083') in 0.013731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.159407 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Palm_2.prefab
+  artifactKey: Guid(f94f1afb3f828eb438a87f71c51b2516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Palm_2.prefab using Guid(f94f1afb3f828eb438a87f71c51b2516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f06d137829d696f57ab5acd7edbd1d1') in 0.038924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.909189 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Bench.fbx
+  artifactKey: Guid(589c05391e5bebd4e843bca5d9c84a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Bench.fbx using Guid(589c05391e5bebd4e843bca5d9c84a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d05ac7cdacaf5c0d26d76273210603') in 0.182973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.246848 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Bucket.fbx
+  artifactKey: Guid(b58053af909ca22408b1f5b548446bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Bucket.fbx using Guid(b58053af909ca22408b1f5b548446bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffdd0e6768454f8600d90fa2bad4406') in 0.018726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.489569 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Desert.fbx
+  artifactKey: Guid(18488c270711a7445bc75721470cf3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Meshes/Desert_Village_Desert.fbx using Guid(18488c270711a7445bc75721470cf3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d507d200e8147b56b16d3cbd0812dad') in 0.016624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.389000 seconds.
+  path: Assets/Scenes/Main VR Scene 1.unity
+  artifactKey: Guid(c42249cdcf3c74cad89956be49cdee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main VR Scene 1.unity using Guid(c42249cdcf3c74cad89956be49cdee0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2d88ece8f3e4dfa01b5d9004b4ea3d') in 0.001976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.757885 seconds.
+  path: Assets/Scenes/Main VR Scene 2.unity
+  artifactKey: Guid(b65617dcf7b6d4a51a9bb3ce28e435a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main VR Scene 2.unity using Guid(b65617dcf7b6d4a51a9bb3ce28e435a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f028981541be184dccd3bdde8abf820f') in 0.001164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.559452 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Bucket.prefab
+  artifactKey: Guid(5e22c709abb2c1d45ad476ea4b03de35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Bucket.prefab using Guid(5e22c709abb2c1d45ad476ea4b03de35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d60522499686697af5e4c5dc5acdf08') in 0.012146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.395065 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Palm_1.prefab
+  artifactKey: Guid(63e0a48ed294278458fa101f87f50a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Palm_1.prefab using Guid(63e0a48ed294278458fa101f87f50a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc4247af961ed16145fae01a8d08a03') in 0.009179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.493346 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_3.prefab
+  artifactKey: Guid(0faca65c8f14644408f4114d41941bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_3.prefab using Guid(0faca65c8f14644408f4114d41941bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb24322aadc40e33ff52aef6fe4ced1') in 0.013763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.573854 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Tent_1.prefab
+  artifactKey: Guid(967076be8d94f0647982242fac0166e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Tent_1.prefab using Guid(967076be8d94f0647982242fac0166e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a684ab56ea2b2617721d8bbe3e2afc1') in 0.009639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.998435 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Street_Lamp.prefab
+  artifactKey: Guid(e838bc811ff46e34f947bf686a965c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Street_Lamp.prefab using Guid(e838bc811ff46e34f947bf686a965c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9302769a9a71fc5f1d04ddf5ec256fee') in 0.013906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.800234 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_Lamp.prefab
+  artifactKey: Guid(0f2e7b5cff628ea42ac22c632b2d19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_Lamp.prefab using Guid(0f2e7b5cff628ea42ac22c632b2d19e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440e4c7dd5983c812138ccad6b1d12e9') in 0.014207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.529307 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_4.prefab
+  artifactKey: Guid(d800a4f4583b26248a0986838df623c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_4.prefab using Guid(d800a4f4583b26248a0986838df623c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852c2089a3dfeee9ffeff4ea56db1465') in 0.014989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.642358 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_2.prefab
+  artifactKey: Guid(41435389b060aac45929f968c7e64a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_2.prefab using Guid(41435389b060aac45929f968c7e64a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f52379ba7369df1c360f2de16861d9') in 0.013422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.781651 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Dryer.prefab
+  artifactKey: Guid(9c2a2d2b74e6f124a968dc5c9089af1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Dryer.prefab using Guid(9c2a2d2b74e6f124a968dc5c9089af1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371a5435832bbfb476e0baf5305bd84a') in 0.011128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.340601 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Fence_Full.prefab
+  artifactKey: Guid(d67be1cf908c827449ae4369c4919dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Fence_Full.prefab using Guid(d67be1cf908c827449ae4369c4919dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f0fa3e10e0b429e332fedd3d66349f') in 0.009022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.415591 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_1.prefab
+  artifactKey: Guid(b7d5a31e2b3908746b39720151582136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_1.prefab using Guid(b7d5a31e2b3908746b39720151582136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca3b0cebec480a63365b2925a183547') in 0.014474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.836279 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Threshold_Rock.prefab
+  artifactKey: Guid(07b9db8a4c5b12449b9ee8e9fbccd558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Threshold_Rock.prefab using Guid(07b9db8a4c5b12449b9ee8e9fbccd558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16c71ee6c9f81dc75bf955c2031fb49') in 0.009774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 976.829784 seconds.
+  path: Assets/Splitting Fruit Sound.mp3
+  artifactKey: Guid(feec137daaa874334865fe1c71b1e416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Splitting Fruit Sound.mp3 using Guid(feec137daaa874334865fe1c71b1e416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e1fcf5a5508e0159836f6d10a7b9fc') in 0.751315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.867533 seconds.
+  path: Assets/Sounds
+  artifactKey: Guid(bd7dceba659474b6d8480f54f2cfc30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds using Guid(bd7dceba659474b6d8480f54f2cfc30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5f7d56aba12624574cd133f6e0c938') in 0.001859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.085739 seconds.
+  path: Assets/Ground Textures
+  artifactKey: Guid(2747e29f8810840419dab1156058c7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground Textures using Guid(2747e29f8810840419dab1156058c7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79677c4c725c527447b82b8fd358f84c') in 0.001364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.937926 seconds.
+  path: Assets/Floor
+  artifactKey: Guid(280e3847bd3552b4cbe88a324d5dd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor using Guid(280e3847bd3552b4cbe88a324d5dd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aefdf5714610d43d7bd8652879a0ce4') in 0.002002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.885613 seconds.
+  path: Assets/Floor/Textures
+  artifactKey: Guid(9eab96a4cd49b61409be3614e71ae83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor/Textures using Guid(9eab96a4cd49b61409be3614e71ae83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ed8a46a46018f8f05944afbdc73063') in 0.002096 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006037 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/leonorden/Desktop/MasterThesisProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/leonorden/Desktop/MasterThesisProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.35 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1295ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1019ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.94 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
+Unloading 4432 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (23.0 KB). Loaded Objects now: 4995.
+Memory consumption went from 195.9 MB to 195.9 MB.
+Total: 3.821215 ms (FindLiveObjects: 0.332653 ms CreateObjectMapping: 0.251977 ms MarkObjects: 3.204467 ms  DeleteObjects: 0.031341 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 111.846414 seconds.
+  path: Assets/Dombo Instrument
+  artifactKey: Guid(fcd6db795e9ad43b88e1449e5ca39d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dombo Instrument using Guid(fcd6db795e9ad43b88e1449e5ca39d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fcfac21e99ce452a924569962a6bd4') in 0.010180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.729787 seconds.
+  path: Assets/Scenes/Main VR Scene 2.unity
+  artifactKey: Guid(b65617dcf7b6d4a51a9bb3ce28e435a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main VR Scene 2.unity using Guid(b65617dcf7b6d4a51a9bb3ce28e435a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4a1403155c70c0b8869d89c112fcf5') in 0.001221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.561228 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5648c5ef36b7beab651a001a8d08867') in 0.001708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.202308 seconds.
+  path: Assets/Table
+  artifactKey: Guid(bd3ede1831bed584ebf17e5c01562060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table using Guid(bd3ede1831bed584ebf17e5c01562060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c5914a4ade0b82541dc5439b5fcf40') in 0.001253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.805177 seconds.
+  path: Assets/My Scripts
+  artifactKey: Guid(0bd4fd031707b423098ab563c5cba057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/My Scripts using Guid(0bd4fd031707b423098ab563c5cba057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473f4edfc1d024419bca8825fd60e0af') in 0.002248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.333100 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(1305f235c042c4c7598af724851ca9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(1305f235c042c4c7598af724851ca9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21f9a5b0e3f3fd2648b1e246fc004af') in 0.001157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.587390 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(f23c93480ec3a47e69c4fc8066828c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(f23c93480ec3a47e69c4fc8066828c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5442960f23444119d3962252fa0965ac') in 0.001270 seconds 
