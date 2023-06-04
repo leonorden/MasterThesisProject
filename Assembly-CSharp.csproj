@@ -76,6 +76,7 @@
      <None Include="Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFColorSpace.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
      <Folder Include="Assets/Calabash Fruit" />
+     <Folder Include="Assets/Table/materials" />
      <Folder Include="Assets/Floor/Materials" />
      <Folder Include="Assets/Samples" />
      <Folder Include="Assets/Materials" />
@@ -87,23 +88,24 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <Folder Include="Assets/TextMesh Pro/Resources" />
      <Folder Include="Assets/Samples/XR Interaction Toolkit" />
+     <Folder Include="Assets/House/materials" />
      <Folder Include="Assets/Sketchfab For Unity/Dependencies/Resources" />
      <Folder Include="Assets/XRI/Settings" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets/Table/license.txt" />
      <Folder Include="Assets/XR/Settings" />
      <Folder Include="Assets/TextMesh Pro" />
-     <Folder Include="Assets/Table/materials" />
      <Folder Include="Assets/Dombo Instrument/meshes" />
      <Folder Include="Assets/Oculus Hands/Prefabs" />
-     <Folder Include="Assets/Table/textures" />
      <Folder Include="Assets/Sketchfab For Unity/Scripts/AssetBrowser" />
      <None Include="Assets/Tree/license.txt" />
+     <Folder Include="Assets/House" />
      <Folder Include="Assets/Tree" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
      <Folder Include="Assets/Floor" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
-     <Folder Include="Assets/Table/meshes" />
+     <Folder Include="Assets/House/meshes" />
      <Folder Include="Assets/Skybox" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
      <Folder Include="Assets/Planet Earth/Models" />
@@ -116,7 +118,9 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
      <Folder Include="Assets/Button" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+     <None Include="Assets/House/license.txt" />
      <Folder Include="Assets/TextMesh Pro/Shaders" />
+     <Folder Include="Assets/Table/textures" />
      <Folder Include="Assets/Tree/textures" />
      <Folder Include="Assets/Planet Earth/Materials" />
      <Folder Include="Assets/TextMesh Pro/Resources/Style Sheets" />
@@ -124,6 +128,7 @@
      <Folder Include="Assets/Dombo Instrument/textures" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
      <Folder Include="Assets/My Scripts" />
+     <Folder Include="Assets/Table/meshes" />
      <Folder Include="Assets/Scenes/Main VR Scene" />
      <Folder Include="Assets/Calabash Fruit/textures" />
      <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2" />
@@ -134,7 +139,6 @@
      <Folder Include="Assets/Dombo Instrument" />
      <Folder Include="Assets/Sketchfab For Unity/Dependencies/Libraries" />
      <Folder Include="Assets/Sounds" />
-     <Folder Include="Assets/Table" />
      <Folder Include="Assets/XR" />
      <Folder Include="Assets/XR/Loaders" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
@@ -146,10 +150,12 @@
      <Folder Include="Assets/Floor/Textures" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
      <None Include="Assets/Dombo Instrument/license.txt" />
+     <Folder Include="Assets/Table" />
      <None Include="Assets/Calabash Fruit/license.txt" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
      <Folder Include="Assets/Planet Earth/Prefabs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+     <Folder Include="Assets/House/textures" />
      <Folder Include="Assets/Dombo Instrument/materials" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
