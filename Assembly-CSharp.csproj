@@ -64,11 +64,13 @@
      <Folder Include="Assets/Sketchfab For Unity" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <Folder Include="Assets/Sketchfab For Unity/Dependencies" />
+     <Folder Include="Assets/GrassFlowers/Demo" />
      <Folder Include="Assets/Planet Earth" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets/TextMesh Pro/Sprites" />
      <None Include="Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFFlipTexture.shader" />
      <Folder Include="Assets/Tree/meshes" />
+     <Folder Include="Assets/_TerrainAutoUpgrade" />
      <None Include="Assets/Unlit Transparent Color.shader" />
      <Folder Include="Assets/Sketchfab For Unity/Dependencies/Shaders" />
      <Folder Include="Assets/TextMesh Pro/Resources/Sprite Assets" />
@@ -88,26 +90,26 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <Folder Include="Assets/TextMesh Pro/Resources" />
      <Folder Include="Assets/Samples/XR Interaction Toolkit" />
-     <Folder Include="Assets/House/materials" />
      <Folder Include="Assets/Sketchfab For Unity/Dependencies/Resources" />
      <Folder Include="Assets/XRI/Settings" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets/Table/license.txt" />
      <Folder Include="Assets/XR/Settings" />
      <Folder Include="Assets/TextMesh Pro" />
+     <Folder Include="Assets/GrassFlowers/Textures" />
      <Folder Include="Assets/Dombo Instrument/meshes" />
+     <Folder Include="Assets/GrassFlowers/Textures/Ground" />
      <Folder Include="Assets/Oculus Hands/Prefabs" />
      <Folder Include="Assets/Sketchfab For Unity/Scripts/AssetBrowser" />
      <None Include="Assets/Tree/license.txt" />
-     <Folder Include="Assets/House" />
      <Folder Include="Assets/Tree" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
      <Folder Include="Assets/Floor" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
-     <Folder Include="Assets/House/meshes" />
      <Folder Include="Assets/Skybox" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+     <Folder Include="Assets/GrassFlowers" />
      <Folder Include="Assets/Planet Earth/Models" />
      <Folder Include="Assets/Sketchfab For Unity/Scripts" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
@@ -118,7 +120,6 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
      <Folder Include="Assets/Button" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
-     <None Include="Assets/House/license.txt" />
      <Folder Include="Assets/TextMesh Pro/Shaders" />
      <Folder Include="Assets/Table/textures" />
      <Folder Include="Assets/Tree/textures" />
@@ -133,6 +134,7 @@
      <Folder Include="Assets/Calabash Fruit/textures" />
      <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2" />
      <Folder Include="Assets/XRI/Settings/Resources" />
+     <Folder Include="Assets/GrassFlowers/Textures/GrassFlowers" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets/Oculus Hands" />
      <Folder Include="Assets/Calabash Fruit/meshes" />
@@ -142,6 +144,7 @@
      <Folder Include="Assets/XR" />
      <Folder Include="Assets/XR/Loaders" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+     <Folder Include="Assets/GrassFlowers/Demo/DemoGrassFlowers" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
      <None Include="Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFBumpToNormal.shader" />
      <Folder Include="Assets/Scenes" />
@@ -149,13 +152,13 @@
      <Folder Include="Assets/TextMesh Pro/Documentation" />
      <Folder Include="Assets/Floor/Textures" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets/GrassFlowers/Textures/Ground/Materials" />
      <None Include="Assets/Dombo Instrument/license.txt" />
      <Folder Include="Assets/Table" />
      <None Include="Assets/Calabash Fruit/license.txt" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
      <Folder Include="Assets/Planet Earth/Prefabs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
-     <Folder Include="Assets/House/textures" />
      <Folder Include="Assets/Dombo Instrument/materials" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -395,19 +398,19 @@
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="GLTFSerialization">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Assets/Sketchfab For Unity/Dependencies/Libraries/GLTFSerialization.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Assets/Sketchfab For Unity/Dependencies/Libraries/GLTFSerialization.dll</HintPath>
      </Reference>
      <Reference Include="SketchfabPlugin">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Assets/Sketchfab For Unity/Dependencies/Libraries/SketchfabPlugin.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Assets/Sketchfab For Unity/Dependencies/Libraries/SketchfabPlugin.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/PackageCache/com.unity.testtools.codecoverage@1.2.3/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/PackageCache/com.unity.testtools.codecoverage@1.2.3/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Ionic.Zip.Unity">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Assets/Sketchfab For Unity/Dependencies/Libraries/Ionic.Zip.Unity.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Assets/Sketchfab For Unity/Dependencies/Libraries/Ionic.Zip.Unity.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
@@ -782,154 +785,154 @@
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Recorder.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Recorder.Base">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Management.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Interaction.Toolkit">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InputSystem">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpatialTracking">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.CoreUtils.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.CoreUtils">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.CoreUtils.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Management">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Oculus.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.SpatialTracking">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Recorder">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Oculus">
-     <HintPath>/Users/leonorden/Documents/BACKUP PROJECT/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
+     <HintPath>/Users/leonorden/Documents/GitHub/MasterThesisProject/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
