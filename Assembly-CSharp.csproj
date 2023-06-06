@@ -60,17 +60,16 @@
      <Compile Include="Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserWindow.cs" />
      <Compile Include="Assets/My Scripts/XRGrabInteractableToAttach.cs" />
      <Compile Include="Assets/My Scripts/AudioAndHapticOnTrigger.cs" />
+     <Compile Include="Assets/My Scripts/PlayAudioOnTrigger.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/Sketchfab For Unity" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <Folder Include="Assets/Sketchfab For Unity/Dependencies" />
-     <Folder Include="Assets/GrassFlowers/Demo" />
      <Folder Include="Assets/Planet Earth" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets/TextMesh Pro/Sprites" />
      <None Include="Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFFlipTexture.shader" />
      <Folder Include="Assets/Tree/meshes" />
-     <Folder Include="Assets/_TerrainAutoUpgrade" />
      <None Include="Assets/Unlit Transparent Color.shader" />
      <Folder Include="Assets/Sketchfab For Unity/Dependencies/Shaders" />
      <Folder Include="Assets/TextMesh Pro/Resources/Sprite Assets" />
@@ -96,9 +95,8 @@
      <None Include="Assets/Table/license.txt" />
      <Folder Include="Assets/XR/Settings" />
      <Folder Include="Assets/TextMesh Pro" />
-     <Folder Include="Assets/GrassFlowers/Textures" />
      <Folder Include="Assets/Dombo Instrument/meshes" />
-     <Folder Include="Assets/GrassFlowers/Textures/Ground" />
+     <Folder Include="Assets/Floor/Grass" />
      <Folder Include="Assets/Oculus Hands/Prefabs" />
      <Folder Include="Assets/Sketchfab For Unity/Scripts/AssetBrowser" />
      <None Include="Assets/Tree/license.txt" />
@@ -109,7 +107,6 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
      <Folder Include="Assets/Skybox" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
-     <Folder Include="Assets/GrassFlowers" />
      <Folder Include="Assets/Planet Earth/Models" />
      <Folder Include="Assets/Sketchfab For Unity/Scripts" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
@@ -134,7 +131,6 @@
      <Folder Include="Assets/Calabash Fruit/textures" />
      <Folder Include="Assets/Samples/XR Interaction Toolkit/2.3.2" />
      <Folder Include="Assets/XRI/Settings/Resources" />
-     <Folder Include="Assets/GrassFlowers/Textures/GrassFlowers" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
      <Folder Include="Assets/Oculus Hands" />
      <Folder Include="Assets/Calabash Fruit/meshes" />
@@ -144,7 +140,6 @@
      <Folder Include="Assets/XR" />
      <Folder Include="Assets/XR/Loaders" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
-     <Folder Include="Assets/GrassFlowers/Demo/DemoGrassFlowers" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
      <None Include="Assets/Sketchfab For Unity/Dependencies/Shaders/GLTFBumpToNormal.shader" />
      <Folder Include="Assets/Scenes" />
@@ -152,7 +147,7 @@
      <Folder Include="Assets/TextMesh Pro/Documentation" />
      <Folder Include="Assets/Floor/Textures" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
-     <Folder Include="Assets/GrassFlowers/Textures/Ground/Materials" />
+     <Folder Include="Assets/Floor/Grass/Materials" />
      <None Include="Assets/Dombo Instrument/license.txt" />
      <Folder Include="Assets/Table" />
      <None Include="Assets/Calabash Fruit/license.txt" />

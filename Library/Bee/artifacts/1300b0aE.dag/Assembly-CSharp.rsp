@@ -384,6 +384,7 @@
 "Assets/My Scripts/FadeScreen.cs"
 "Assets/My Scripts/HapticInteractable.cs"
 "Assets/My Scripts/HapticOnTrigger.cs"
+"Assets/My Scripts/PlayAudioOnTrigger.cs"
 "Assets/My Scripts/SceneTransitionManager.cs"
 "Assets/My Scripts/XRGrabInteractableToAttach.cs"
 "Assets/Planet Earth/SpinFree.cs"
