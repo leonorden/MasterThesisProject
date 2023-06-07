@@ -41,6 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/My Scripts/PlayAudioOnTrigger.cs" />
      <Compile Include="Assets/My Scripts/SceneTransitionManager.cs" />
      <Compile Include="Assets/Sketchfab For Unity/Scripts/SketchfabLogger.cs" />
      <Compile Include="Assets/Sketchfab For Unity/Scripts/SketchfabPlugin.cs" />
@@ -60,7 +61,6 @@
      <Compile Include="Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserWindow.cs" />
      <Compile Include="Assets/My Scripts/XRGrabInteractableToAttach.cs" />
      <Compile Include="Assets/My Scripts/AudioAndHapticOnTrigger.cs" />
-     <Compile Include="Assets/My Scripts/PlayAudioOnTrigger.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/Sketchfab For Unity" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
