@@ -1,4 +1,4 @@
-This study investigates non-textual visualization of metadata in VR to help users understand 3D objects, focusing on cultural heritage. Using a research-through-design approach, we gathered data from museum visitor interviews to identify key visualization characteristics. A prototype VR experience was developed, presenting object information across three visual layers. After testing with participants, we suggest that VR metadata visualization is effective when it gives layered information in a narrative sequence with multisensory cues. We offer more research to explore further and evaluate these visualization techniques.
+Explored non-textual visualization of metadata in VR to help users understand 3D objects, focusing on cultural heritage. We gathered data from museum visitor interviews to identify key visualization characteristics. A VR prototype was developed, presenting object information across three visual layers. 
 
 <p align="left">
   <img src="https://github.com/leonorden/MasterThesisProject/assets/39034760/f3e17dfd-a026-42fc-a44b-82eac2eb2640" alt="P16" width="200"/>
